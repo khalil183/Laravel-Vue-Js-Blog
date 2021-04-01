@@ -2637,8 +2637,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2684,8 +2682,6 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _category_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./category.vue */ "./resources/js/components/frontend/category.vue");
 /* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./search */ "./resources/js/components/frontend/search.vue");
-//
-//
 //
 //
 //
@@ -2782,18 +2778,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _category_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./category.vue */ "./resources/js/components/frontend/category.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -65941,11 +65925,7 @@ var render = function() {
                     attrs: { to: "/post-show/" + post.slug }
                   },
                   [_vm._v("Read More →")]
-                ),
-                _vm._v(" "),
-                _c("h2", { staticClass: "card-title" }, [
-                  _vm._v(_vm._s(post.category.name))
-                ])
+                )
               ],
               1
             ),
@@ -66018,11 +65998,7 @@ var render = function() {
                   attrs: { to: "/post-show/" + post.slug }
                 },
                 [_vm._v("Read More →")]
-              ),
-              _vm._v(" "),
-              _c("h2", { staticClass: "card-title" }, [
-                _vm._v(_vm._s(post.category.name))
-              ])
+              )
             ],
             1
           ),
@@ -66157,38 +66133,10 @@ var render = function() {
     _vm._v(" "),
     _c("hr"),
     _vm._v(" "),
-    _c("p", { staticClass: "lead" }, [_vm._v(_vm._s(_vm.blog.details))]),
-    _vm._v(" "),
-    _vm._m(0)
+    _c("p", { staticClass: "lead" }, [_vm._v(_vm._s(_vm.blog.details))])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card my-4" }, [
-      _c("h5", { staticClass: "card-header" }, [_vm._v("Leave a Comment:")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "card-body" }, [
-        _c("form", [
-          _c("div", { staticClass: "form-group" }, [
-            _c("textarea", {
-              staticClass: "form-control",
-              attrs: { rows: "3" }
-            })
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-            [_vm._v("Submit")]
-          )
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

@@ -9,8 +9,6 @@
             <h2 class="card-title" >{{ post.title }}</h2>
             <p class="card-text">{{ post.details | sortString(100)}}</p>
             <router-link :to="`/post-show/${post.slug}`" class="btn btn-primary">Read More &rarr;</router-link>
-
-            <h2 class="card-title">{{ post.category.name }}</h2>
           </div>
           <div class="card-footer text-muted">
             Posted on {{  post.created_at | timeFormate}} by
